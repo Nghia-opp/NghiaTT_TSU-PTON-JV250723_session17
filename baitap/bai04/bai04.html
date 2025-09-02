@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        transition: background-color 0.3s ease;
+        padding: 50px;
+        }
+
+        .color-box {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        cursor: pointer;
+        border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Change background color</h1>
+    <p>Mouse over the square.</p>
+
+    <div class="color-box" data-color="yellow" style="background-color: yellow;"></div>
+    <div class="color-box" data-color="green" style="background-color: green;"></div>
+    <div class="color-box" data-color="gray" style="background-color: gray;"></div>
+    <script src="./bai04.js"></script>
+</body>
+</html>

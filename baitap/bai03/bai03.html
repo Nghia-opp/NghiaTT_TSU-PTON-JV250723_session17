@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .metal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);    
+        }
+        .modal {
+            background-color: white;
+            width: 500px;
+            height: 100px;
+            border-radius: 5px;
+            line-height: 100px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .pass {
+            background-color: transparent;
+            border: none ;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body class="body">
+    <h1>Modal Example</h1>
+    <button id="button01">Open Modal</button>
+    <div class="gold">
+        <div class="metal" id="made">
+            <div class="modal">
+                <p>Some text in the Modal</p>
+                <button class="pass" id="button02">x</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./bai03.js"></script>
+</body>
+</html>
